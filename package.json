@@ -1,0 +1,24 @@
+{
+  "name": "node-portfolio",
+  "version": "1.0.0",
+  "description": "First layout draft for a developer portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TKStiles/Node-Portfolio.git"
+  },
+  "author": "TKStiles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TKStiles/Node-Portfolio/issues"
+  },
+  "homepage": "https://github.com/TKStiles/Node-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  }
+}
