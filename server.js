@@ -6,7 +6,7 @@ const fs = require('fs');
 //port and server setup
 const port = process.env.PORT || 3000;
 var app = express();
-hbs.registerPartials(__dirname + 'views/partials');
+hbs.registerPartials(__dirname + '/views/partials');
 app.set('view engine, hbs');
 
 //Log setup
